@@ -271,13 +271,13 @@ font-family: 'Trebuchet MS', Helvetica, sans-serif;
 
 <div class="mb-3">
   
-    <input type="text" name="Title" class="form-control" id="Title" placeholder="" value="<?php echo $Title;?>" >
+    <input type="text"  required  name="Title" class="form-control" id="Title" placeholder="" value="<?php echo $Title;?>" >
 
   
 </div>
 <div class="mb-3">
     <label for="Note" class="form-label text-muted">Update Note:</label>
-    <input type="text" name="Note" class="form-control" id="Note" placeholder="" value="<?php echo $Note;?>" >
+    <input type="text"  required  name="Note" class="form-control" id="Note" placeholder="" value="<?php echo $Note;?>" >
 
  
 
