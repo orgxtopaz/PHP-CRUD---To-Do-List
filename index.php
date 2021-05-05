@@ -406,7 +406,7 @@ background-size: cover;
                                     <div class="mb-3">
 
 
-                                    <input type="text" name="Title" class="form-control" id="Title" placeholder="Title"
+                                    <input type="text" name="Title" class="form-control" id="Title" required placeholder="Title"
                                             value="<?php echo $Title;?>">
 
 
@@ -414,7 +414,7 @@ background-size: cover;
 
                                     <div class="mb-3">
                                     
-                                    <input type="text" name="Note" class="form-control" id="Note" placeholder="Your todo here.."
+                                    <input type="text" name="Note" class="form-control" id="Note" required placeholder="Your todo here.."
                                             value="<?php echo $Note;?>">
 
                     
